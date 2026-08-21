@@ -3,21 +3,21 @@ public class Main {
     String name;
     int yearPublish;
     public static void main(String[] args) {
-        App book1 = new App("Brain Backs ", "Black Hat ", 2020);
+        Book book1 = new Book("Brain Backs ", "Black Hat ", 2020);
+        System.out.println("book1.getAuthorName() = " + book1.getAuthorName());
         System.out.println("book1.getName() = " + book1.getName());
-        System.out.println("book1.getAuthor() = " + book1.getAuthor());
         System.out.println("book1.getYearPublish() = " + book1.getYearPublish());
         System.out.println("");
 
-        App book2 = new App("Brain Red ", "Red Hat ", 2023);
+        Book book2 = new Book("Brain Red ", "Red Hat ", 2023);
+        System.out.println("book2.getAuthorName() = " + book2.getAuthorName());
         System.out.println("book2.getName() = " + book2.getName());
-        System.out.println("book2.getAuthor() = " + book2.getAuthor());
         System.out.println("book2.getYearPublish() = " + book2.getYearPublish());
         System.out.println("");
 
-        App book3 = new App("Dolev Farhi ", "Blach Hat Bash ", 2023);
+        Book book3 = new Book("Dolev Farhi", "Blach Hat Bash ", 2023);
+        System.out.println("book3.getAuthorName() = " + book3.getAuthorName());
         System.out.println("book3.getName() = " + book3.getName());
-        System.out.println("book3.getAuthor() = " + book3.getAuthor());
         System.out.println("book3.getYearPublish() = " + book3.getYearPublish());
         System.out.println("");
 
