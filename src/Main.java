@@ -1,7 +1,7 @@
 public class Main {
-    Author author;
-    String name;
-    int yearPublish;
+    private Author author;
+    private String name;
+    private int yearPublish;
     public static void main(String[] args) {
         Author brainBacks = new Author("Brain", "Backs");
         Author brainRed = new Author("Brain", "Red");
