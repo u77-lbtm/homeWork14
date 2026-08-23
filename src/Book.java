@@ -2,7 +2,7 @@ public class Book {
     private Author author ;
     private String name;
 
-    int yearPublish;
+    private int yearPublish;
 
 
     // Конструктор с параметрами для удобного создания книг
