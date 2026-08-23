@@ -13,7 +13,7 @@ public class Book {
     }
 
 
-    public String getAuthorName() {
+    public String getAuthor() {
         return this.author.toString(); // Возвращает строку с именем
     }
 

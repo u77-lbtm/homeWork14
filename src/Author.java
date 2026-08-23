@@ -9,18 +9,20 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public String getFirstName () {
+    public String getFirstName() {
 
         return this.firstName;
     }
 
-    public String getLastName () {
+    public String getLastName() {
 
         return this.lastName;
     }
+
     @Override
     public String toString() {
 
         return firstName + " " + lastName;
     }
+}
 
